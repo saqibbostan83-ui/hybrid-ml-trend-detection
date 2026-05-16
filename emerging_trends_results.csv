@@ -1,0 +1,106 @@
+topic_id,topic_label,change_date,growth_rate,before_avg,after_avg,status
+1,Politics & Government,2025-02-03,2.11,177.0,374.0,🚀 EMERGING
+2,International Affairs,2025-02-03,1.92,259.0,497.0,🚀 EMERGING
+9,Diplomacy & Relations,2025-02-03,1.83,151.0,276.0,🚀 EMERGING
+6,Regional Conflicts,2025-02-03,1.77,126.0,224.0,🚀 EMERGING
+4,Nuclear & Security Affairs,2025-02-03,1.69,82.0,139.0,🚀 EMERGING
+3,Social Media & Public Opinion,2025-02-03,1.62,120.0,194.0,🚀 EMERGING
+0,Military & Defense,2025-05-19,1.43,128.0,183.0,📈 GROWING
+6,Regional Conflicts,2025-03-10,1.41,175.0,247.0,📈 GROWING
+9,Diplomacy & Relations,2025-03-10,1.41,213.0,301.0,📈 GROWING
+8,Energy & Commodities,2025-03-10,1.38,145.0,200.0,📈 GROWING
+8,Energy & Commodities,2025-02-03,1.36,123.0,167.0,📈 GROWING
+0,Military & Defense,2025-02-03,1.33,105.0,140.0,📈 GROWING
+7,Security & Terrorism,2025-02-03,1.25,114.0,143.0,➡️ STABLE
+5,Global Issues,2025-05-19,1.23,139.0,171.0,➡️ STABLE
+7,Security & Terrorism,2025-03-10,1.23,128.0,158.0,➡️ STABLE
+5,Global Issues,2025-02-03,1.21,130.0,158.0,➡️ STABLE
+1,Politics & Government,2025-03-10,1.2,276.0,331.0,➡️ STABLE
+0,Military & Defense,2025-03-10,1.18,122.0,144.0,➡️ STABLE
+7,Security & Terrorism,2025-05-19,1.18,136.0,160.0,➡️ STABLE
+3,Social Media & Public Opinion,2025-03-10,1.17,157.0,184.0,➡️ STABLE
+6,Regional Conflicts,2025-12-15,1.13,147.0,166.0,➡️ STABLE
+4,Nuclear & Security Affairs,2025-03-10,1.12,111.0,124.0,➡️ STABLE
+5,Global Issues,2025-06-23,1.11,145.0,161.0,➡️ STABLE
+2,International Affairs,2025-12-15,1.1,306.0,337.0,➡️ STABLE
+6,Regional Conflicts,2026-01-19,1.05,148.0,155.0,➡️ STABLE
+4,Nuclear & Security Affairs,2025-12-15,1.04,94.0,98.0,➡️ STABLE
+0,Military & Defense,2025-12-15,1.04,126.0,131.0,➡️ STABLE
+8,Energy & Commodities,2025-12-15,1.02,127.0,130.0,➡️ STABLE
+5,Global Issues,2025-07-28,1.02,148.0,151.0,➡️ STABLE
+9,Diplomacy & Relations,2025-12-15,1.01,185.0,186.0,➡️ STABLE
+3,Social Media & Public Opinion,2025-12-15,1.0,135.0,135.0,➡️ STABLE
+1,Politics & Government,2025-12-15,0.98,199.0,194.0,➡️ STABLE
+0,Military & Defense,2025-06-23,0.97,139.0,134.0,➡️ STABLE
+7,Security & Terrorism,2025-12-15,0.96,127.0,122.0,➡️ STABLE
+4,Nuclear & Security Affairs,2025-06-23,0.95,109.0,104.0,➡️ STABLE
+0,Military & Defense,2025-04-14,0.95,129.0,123.0,➡️ STABLE
+9,Diplomacy & Relations,2026-01-19,0.95,185.0,175.0,➡️ STABLE
+7,Security & Terrorism,2025-04-14,0.95,138.0,131.0,➡️ STABLE
+7,Security & Terrorism,2025-06-23,0.94,141.0,133.0,➡️ STABLE
+2,International Affairs,2025-03-10,0.94,378.0,354.0,➡️ STABLE
+5,Global Issues,2025-03-10,0.93,144.0,133.0,➡️ STABLE
+2,International Affairs,2025-05-19,0.92,362.0,332.0,➡️ STABLE
+5,Global Issues,2025-09-01,0.92,148.0,136.0,➡️ STABLE
+2,International Affairs,2025-04-14,0.91,370.0,338.0,➡️ STABLE
+6,Regional Conflicts,2025-05-19,0.91,190.0,173.0,➡️ STABLE
+0,Military & Defense,2025-09-01,0.91,131.0,119.0,➡️ STABLE
+8,Energy & Commodities,2025-10-06,0.9,132.0,119.0,➡️ STABLE
+3,Social Media & Public Opinion,2026-01-19,0.9,135.0,122.0,➡️ STABLE
+2,International Affairs,2025-07-28,0.89,337.0,301.0,➡️ STABLE
+0,Military & Defense,2026-01-19,0.89,127.0,112.0,➡️ STABLE
+2,International Affairs,2025-11-10,0.88,310.0,273.0,➡️ STABLE
+5,Global Issues,2025-10-06,0.88,147.0,129.0,➡️ STABLE
+0,Military & Defense,2025-10-06,0.86,130.0,112.0,➡️ STABLE
+9,Diplomacy & Relations,2025-04-14,0.86,243.0,208.0,➡️ STABLE
+0,Military & Defense,2025-11-10,0.86,128.0,110.0,➡️ STABLE
+4,Nuclear & Security Affairs,2025-04-14,0.86,115.0,99.0,➡️ STABLE
+7,Security & Terrorism,2025-09-01,0.86,135.0,116.0,➡️ STABLE
+1,Politics & Government,2026-01-19,0.86,199.0,170.0,➡️ STABLE
+3,Social Media & Public Opinion,2025-11-10,0.85,137.0,116.0,➡️ STABLE
+7,Security & Terrorism,2025-11-10,0.85,129.0,109.0,➡️ STABLE
+3,Social Media & Public Opinion,2025-04-14,0.84,166.0,140.0,➡️ STABLE
+7,Security & Terrorism,2026-01-19,0.84,126.0,106.0,➡️ STABLE
+4,Nuclear & Security Affairs,2026-01-19,0.83,94.0,79.0,➡️ STABLE
+8,Energy & Commodities,2026-01-19,0.83,128.0,106.0,➡️ STABLE
+3,Social Media & Public Opinion,2025-06-23,0.83,155.0,129.0,➡️ STABLE
+6,Regional Conflicts,2025-04-14,0.82,199.0,163.0,➡️ STABLE
+1,Politics & Government,2025-04-14,0.82,294.0,241.0,➡️ STABLE
+8,Energy & Commodities,2025-06-23,0.79,147.0,116.0,➡️ STABLE
+3,Social Media & Public Opinion,2025-09-01,0.78,145.0,114.0,➡️ STABLE
+9,Diplomacy & Relations,2025-05-19,0.78,234.0,182.0,➡️ STABLE
+8,Energy & Commodities,2025-11-10,0.77,130.0,101.0,➡️ STABLE
+7,Security & Terrorism,2025-07-28,0.77,140.0,108.0,➡️ STABLE
+2,International Affairs,2025-09-01,0.76,332.0,252.0,➡️ STABLE
+8,Energy & Commodities,2025-07-28,0.76,142.0,107.0,➡️ STABLE
+9,Diplomacy & Relations,2025-11-10,0.75,189.0,143.0,➡️ STABLE
+4,Nuclear & Security Affairs,2025-11-10,0.75,96.0,72.0,➡️ STABLE
+8,Energy & Commodities,2025-04-14,0.74,163.0,122.0,➡️ STABLE
+7,Security & Terrorism,2025-10-06,0.73,133.0,97.0,➡️ STABLE
+3,Social Media & Public Opinion,2025-07-28,0.73,151.0,110.0,➡️ STABLE
+4,Nuclear & Security Affairs,2025-07-28,0.73,108.0,78.0,➡️ STABLE
+4,Nuclear & Security Affairs,2025-09-01,0.73,104.0,75.0,➡️ STABLE
+3,Social Media & Public Opinion,2025-10-06,0.72,141.0,102.0,➡️ STABLE
+9,Diplomacy & Relations,2025-09-01,0.72,204.0,146.0,➡️ STABLE
+9,Diplomacy & Relations,2025-07-28,0.71,212.0,151.0,➡️ STABLE
+6,Regional Conflicts,2025-06-23,0.71,187.0,133.0,➡️ STABLE
+8,Energy & Commodities,2025-09-01,0.71,137.0,97.0,➡️ STABLE
+9,Diplomacy & Relations,2025-06-23,0.7,224.0,157.0,➡️ STABLE
+1,Politics & Government,2025-11-10,0.69,205.0,142.0,➡️ STABLE
+2,International Affairs,2025-06-23,0.68,356.0,243.0,➡️ STABLE
+9,Diplomacy & Relations,2025-10-06,0.68,196.0,133.0,➡️ STABLE
+0,Military & Defense,2025-07-28,0.67,138.0,92.0,➡️ STABLE
+4,Nuclear & Security Affairs,2025-10-06,0.66,100.0,66.0,➡️ STABLE
+2,International Affairs,2026-01-19,0.66,309.0,202.0,➡️ STABLE
+2,International Affairs,2025-10-06,0.65,322.0,211.0,➡️ STABLE
+5,Global Issues,2025-12-15,0.64,139.0,89.0,➡️ STABLE
+6,Regional Conflicts,2025-10-06,0.64,158.0,101.0,➡️ STABLE
+5,Global Issues,2026-01-19,0.63,134.0,84.0,➡️ STABLE
+1,Politics & Government,2025-05-19,0.62,281.0,175.0,➡️ STABLE
+1,Politics & Government,2025-07-28,0.59,242.0,144.0,➡️ STABLE
+1,Politics & Government,2025-06-23,0.59,260.0,153.0,➡️ STABLE
+6,Regional Conflicts,2025-07-28,0.59,178.0,105.0,➡️ STABLE
+5,Global Issues,2025-11-10,0.58,145.0,84.0,➡️ STABLE
+1,Politics & Government,2025-10-06,0.57,216.0,123.0,➡️ STABLE
+1,Politics & Government,2025-09-01,0.57,228.0,129.0,➡️ STABLE
+6,Regional Conflicts,2025-09-01,0.56,167.0,93.0,➡️ STABLE
