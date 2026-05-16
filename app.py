@@ -11,7 +11,7 @@ import numpy as np
 
 st.set_page_config(page_title="Emerging Digital Trends", page_icon="🚀", layout="wide")
 
-BASE = "/content/drive/MyDrive/worlddataset/"
+BASE = ""
 
 @st.cache_data
 def load_data():
