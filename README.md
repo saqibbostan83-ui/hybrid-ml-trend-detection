@@ -43,4 +43,4 @@ A hybrid machine learning system that automatically discovers discussion topics 
 - **6 Growing** trends detected
 
 ## 🚀 Live Dashboard
-[Click here to view the dashboard](#) ← Streamlit Cloud link yahan aayega
+https://hybrid-ml-trend-detection-opakyewvfccsdxwbhwbgks.streamlit.app ← Streamlit Cloud link yahan aayega
