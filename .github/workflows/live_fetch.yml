@@ -2,7 +2,7 @@ name: Live Reddit Fetch
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Har ghante chale
+    - cron: '*/30 * * * *'
   workflow_dispatch:       # Manual bhi chala sako
 
 jobs:
