@@ -42,7 +42,7 @@ def load_model():
         cv = pickle.load(f)
     return lda, cv
 
-@st.cache_data(ttl=3600)
+@st.cache_data(ttl=60)
 def load_live():
     url = "https://raw.githubusercontent.com/saqibbostan83-ui/hybrid-ml-trend-detection/main/live_predictions.csv"
     try:
