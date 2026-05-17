@@ -55,7 +55,7 @@ topic_cols  = [c for c in ts.columns if c.startswith("topic_")]
 # SIDEBAR
 st.sidebar.title("🚀 Trend Detector")
 st.sidebar.markdown("---")
-page = st.sidebar.radio("Navigate", ["📊 Overview", "🔍 Topic Explorer", "🚀 Emerging Trends"])
+page = st.sidebar.radio("Navigate", ["📊 Overview", "🔍 Topic Explorer", "🚀 Emerging Trends", "🔴 Live Data"])
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("### 📅 Date Filter")
@@ -295,9 +295,10 @@ elif page == "🚀 Emerging Trends":
     disp["After Avg"]   = disp["After Avg"].round(1)
     st.dataframe(disp, use_container_width=True, height=420)
     # ── LIVE DATA SECTION ────────────────────────────────────────────
-if page == "📊 Overview":
+if page == "🔴 Live Data":
+    st.title("🔴 Live Right Now — r/worldnews")
+    st.markdown("Live Reddit posts — automatically updated every hour by GitHub Actions.")
     st.markdown("---")
-    st.subheader("🔴 Live Right Now — r/worldnews")
 
     @st.cache_data(ttl=3600)
     def load_live():
