@@ -43,4 +43,4 @@ A hybrid machine learning system that automatically discovers discussion topics 
 - **6 Growing** trends detected
 
 ## 🚀 Live Dashboard
-https://hybrid-ml-trend-detection-opakyewvfccsdxwbhwbgks.streamlit.app <- live dashboard
+https://hybrid-ml-trend-detection-opakyewvfccsdxwbhwbgks.streamlit.app/?nocache=1<- live dashboard
