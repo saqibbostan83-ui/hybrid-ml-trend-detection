@@ -68,7 +68,7 @@ if os.path.exists('live_predictions.csv'):
     updated = pd.concat([existing, trending], ignore_index=True)
 else:
     updated = trending
-
+updated = updated.sort_values('timestamp', ascending=False)
 updated.to_csv('live_predictions.csv', index=False)
 print("Saved live_predictions.csv")
 
