@@ -294,3 +294,66 @@ elif page == "🚀 Emerging Trends":
     disp["Before Avg"]  = disp["Before Avg"].round(1)
     disp["After Avg"]   = disp["After Avg"].round(1)
     st.dataframe(disp, use_container_width=True, height=420)
+    # ── LIVE DATA SECTION ────────────────────────────────────────────
+if page == "📊 Overview":
+    st.markdown("---")
+    st.subheader("🔴 Live Right Now — r/worldnews")
+
+    @st.cache_data(ttl=3600)
+    def load_live():
+        url = "https://raw.githubusercontent.com/saqibbostan83-ui/hybrid-ml-trend-detection/main/live_predictions.csv"
+        try:
+            return pd.read_csv(url)
+        except:
+            return None
+
+    live = load_live()
+    if live is not None:
+        latest_time = live["timestamp"].max()
+        latest = live[live["timestamp"] == latest_time].copy()
+
+        st.caption(f"🕐 Last updated: {latest_time}")
+
+        # Metric cards
+        cols = st.columns(len(latest))
+        for i, (_, row) in enumerate(latest.iterrows()):
+            with cols[i]:
+                st.metric(row["topic"], f"{int(row['post_count'])} posts")
+
+        # Live bar chart
+        fig_live = go.Figure(go.Bar(
+            x=latest["post_count"],
+            y=latest["topic"],
+            orientation="h",
+            marker=dict(color=latest["post_count"], colorscale="Reds"),
+            text=latest["post_count"],
+            textposition="outside"
+        ))
+        fig_live.update_layout(
+            title="Live Topic Activity — Last Hour",
+            xaxis_title="Posts",
+            height=380,
+            plot_bgcolor="rgba(0,0,0,0)"
+        )
+        st.plotly_chart(fig_live, use_container_width=True)
+
+        # History chart — jab multiple updates aa jayein
+        if len(live["timestamp"].unique()) > 1:
+            st.subheader("📈 Live Trend History")
+            fig_hist = go.Figure()
+            for topic in live["topic"].unique():
+                td = live[live["topic"] == topic].sort_values("timestamp")
+                fig_hist.add_trace(go.Scatter(
+                    x=td["timestamp"], y=td["post_count"],
+                    mode="lines+markers", name=topic, line=dict(width=2)
+                ))
+            fig_hist.update_layout(
+                title="Topic Activity Over Time",
+                height=400, hovermode="x unified",
+                plot_bgcolor="rgba(0,0,0,0)"
+            )
+            st.plotly_chart(fig_hist, use_container_width=True)
+    else:
+        st.info("⏳ Live data loading...")
+
+
