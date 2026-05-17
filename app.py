@@ -547,3 +547,4 @@ elif page == "🔴 Live Data":
 
     else:
         st.info("⏳ Live data loading... Check back in a few minutes.")
+    https://hybrid-ml-trend-detection-opakyewvfccsdxwbhwbgks.streamlit.app/?nocache=1
